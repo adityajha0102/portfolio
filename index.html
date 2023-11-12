@@ -478,16 +478,16 @@
                         </div>
                     </div>
                     <div class="right-contact">
-                        <form action="https://formsubmit.co/el/jiziku" class="contact-form" id="contact-form" method="POST" onsubmit="console.log('Sucessfully Submitted!'); return false;">
+                        <form class="contact-form" action="https://formsubmit.co/adityajha.ml@gmail.com" method="POST" />
                             <div class="input-control i-c-2">
-                                <input type="text" id="name" required placeholder="YOUR NAME">
-                                <input type="email" id="email" required placeholder="YOUR EMAIL">
+                                <input type="text" id="name" name="name" required placeholder="YOUR NAME">
+                                <input type="email" id="email" name="email" required placeholder="YOUR EMAIL">
                             </div>
                             <div class="input-control">
-                                <input type="text" id="subject" required placeholder="ENTER SUBJECT">
+                                <input type="text" id="subject" name="subject" required placeholder="ENTER SUBJECT">
                             </div>
                             <div class="input-control">
-                                <textarea id="message" cols="15" rows="8" placeholder="Message Here..."></textarea>
+                                <textarea id="message" name="message" cols="15" rows="8" placeholder="Message Here..."></textarea>
                             </div>
                             <div class="submit-btn">
                                 <a href="#" onclick="this.closest('form').requestSubmit(); fun(); return false;"class="main-btn">
